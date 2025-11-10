@@ -1,0 +1,1 @@
+Invoke-Command -ComputerName winsrv02 -Authentication Negotiate -Credential (Get-Credential) -ScriptBlock {Get-PSDrive -PSProvider FileSystem} | Select-Object @{n="Used (GB)";e={$_.Used/1GB}}, @{n="Free (GB)";e={$_.Free/1GB}}, Root | Export-Csv ".\drives-report-$((get-date).ToString("dd-MM-yyyy")).csv" -NoTypeInformation -Encoding UTF8
