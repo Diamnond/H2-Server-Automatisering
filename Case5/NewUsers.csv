@@ -1,0 +1,4 @@
+﻿GivenName,Surname,SamAccountName,OU,Department,Email,Groups,TempPassword
+Anna,Hansen,ahansen02,"OU=Users,OU=HQ,DC=sko,DC=butik",IT,anna.hansen@sko.butik,GG-IT;GG-FileShare-IT,P@ssw0rd!
+Bo,Nielsen,bnielsen02,"OU=Users,OU=HQ,DC=sko,DC=butik",Sales,bo.nielsen@sko.butik,GG-Sales,P@ssw0rd!
+Carla,Østergaard,costergaard02,"OU=Branch,OU=Jylland,DC=sko,DC=butik",Ops,carla.ostergaard@sko.butik,GG-Operations,P@ssw0rd!
