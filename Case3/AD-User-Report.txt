@@ -1,0 +1,20 @@
+﻿AD User Overview Report - 2025-11-12 11:52
+Output CSV: C:\Users\dgm.SKO\Documents\GitHub\H2-Server-Automatisering\Case3\AD-Users.csv
+Total users returned: 10
+Active users: 7
+Users created in last 30 days: 10
+
+Example (first 10 users):
+
+Surname              First Name      Logon Name
+---------------------------------------------------------
+                                     krbtgt
+                                     Guest
+                                     Administrator
+                     abh             abh
+                     dgm             dgm
+                     jox             jox
+Hansen               Jacob           jh
+Larsen               Paul            pl
+Madsen               Bent            bm
+Pedersen             Martin          mp
